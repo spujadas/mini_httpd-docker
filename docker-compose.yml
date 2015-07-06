@@ -1,0 +1,5 @@
+minihttpd:
+    build: .
+    ports:
+        - "8001:80"
+
