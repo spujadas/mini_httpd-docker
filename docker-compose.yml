@@ -1,5 +1,15 @@
+# Docker Compose YAML file for mini-httpd
+
+# build with:
+# $ sudo docker-compose build
+
+# start with:
+# $ sudo docker-compose up
+
+# after start, enter shell with:
+# $ sudo docker exec -it minihttpddocker_minihttpd_1 ash
+
 minihttpd:
     build: .
     ports:
-        - "8001:80"
-
+        - "8001:80" # for testing purposes, uncomment as required
