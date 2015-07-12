@@ -12,4 +12,4 @@
 minihttpd:
     build: .
     ports:
-        - "8001:80" # for testing purposes, uncomment as required
+        - "8001:80" # for testing purposes, (un)comment as required

@@ -18,7 +18,7 @@ In the instructions that follow, replace `<home-directory>` with the path of the
 
 ### Start a container with Docker
 
-	$ sudo docker run -t -v <home-directory>:/var/www/localhost/htdocs -p <http-port>:80
+	$ sudo docker run --rm -t -v <home-directory>:/var/www/localhost/htdocs -p <http-port>:80
 
 ### Start a container with Docker Compose
 
@@ -45,8 +45,6 @@ First clone or download the [spujadas/mini_httpd-docker](https://github.com/spuj
 This command will build the image:
 
 	$ sudo docker build .
-	...	
-	Successfully built c25252e8e844
 
 ### Build with Docker Compose
 
