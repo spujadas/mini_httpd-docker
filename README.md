@@ -18,7 +18,7 @@ In the instructions that follow, replace `<home-directory>` with the path of the
 
 ### Start a container with Docker
 
-	$ sudo docker run --rm -t -v <home-directory>:/var/www/localhost/htdocs -p <http-port>:80
+	$ sudo docker run --rm -t -v <home-directory>:/var/www/localhost/htdocs -p <http-port>:80 sebp/mini_httpd
 
 ### Start a container with Docker Compose
 
